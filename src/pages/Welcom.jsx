@@ -39,17 +39,17 @@ function Welcom() {
 
 </div>
 <div className='  w-full flex justify-around flex-wrap px-5'>
-  <div className='w-[310px] h-[190px] rounded-lg bg-[#262C3E] '>
+  <div className='w-[310px] h-[190px] hover:scale-105 duration-300 cursor-pointer rounded-lg bg-[#262C3E] '>
   <FaTasks className='m-4 text-[30px] text-[#4EA8DE]' />
   <h1 className='px-4 py-2 text-white font-bold tracking-wider break-words w-[100%] text-[22px]'>Smart Task Mangement</h1>
   <p className='px-4 py-2 text-[#D1D5DB] w-[95%] break-words pb-5 text-sm'>Organize tasks with intelligent categorization and priority settings.</p>
   </div>
-  <div className='w-[310px] h-[190px] rounded-lg bg-[#262C3E] '>
+  <div className='w-[310px] h-[190px] hover:scale-105 duration-300 cursor-pointer rounded-lg bg-[#262C3E] '>
   <GiProgression className='m-4 text-[30px] text-[#4EA8DE]' />
   <h1 className='px-4 py-2 text-white font-bold tracking-wider break-words w-[100%] text-[22px]'>Progress Tracking</h1>
   <p className='px-4 py-2 text-[#D1D5DB] w-[95%] break-words pb-5 text-sm'>Monitor your productivity with detailed analytics and insights.</p>
   </div>
-  <div className='w-[310px] h-[190px] rounded-lg bg-[#262C3E] flex flex-col '>
+  <div className='w-[310px] h-[190px] hover:scale-105 duration-300 cursor-pointer rounded-lg bg-[#262C3E] flex flex-col '>
   <FaBell className='m-4 text-[30px] text-[#4EA8DE]' />
   <h1 className='px-4 py-2 text-white font-bold tracking-wider break-words w-[100%] text-[22px]'>Smart Reminder</h1>
   <p className='px-4 py-2 text-[#D1D5DB] w-[95%] break-words pb-5 text-sm'>Never miss a deadline with customizable notifications.</p>

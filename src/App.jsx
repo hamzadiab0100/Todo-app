@@ -2,6 +2,7 @@ import React, { useEffect, useState, Suspense, lazy } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { auth } from "./firebase";
 import { onAuthStateChanged } from "firebase/auth";
+import "./App.css";
 
 
 const Welcom = lazy(() => import("./pages/Welcom"));
