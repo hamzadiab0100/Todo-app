@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+      { "source": "/Login", "destination": "/index.html" },
+      { "source": "/signup", "destination": "/index.html" },
+      { "source": "/todo", "destination": "/index.html" }
+
+    ],
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          { "key": "Cache-Control", "value": "max-age=0, no-cache, no-store, must-revalidate" }
+        ]
+      }
+    ]
+  }
