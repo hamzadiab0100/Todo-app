@@ -50,7 +50,7 @@ function Signin() {
   return (
     <div className="bg-[#FFFFFF]">
       <div className="lg:container text-white lg:mx-auto xs:flex justify-center items-center lg:block">
-        <div className="flex h-full xs:justify-center my-4 items-center lg:justify-between xl:mx-4">
+        <div className="flex h-full xs:justify-center py-4 items-center lg:justify-between xl:mx-4">
           <div className="bg-[#ffffff] xs:w-[310px] md:w-[500px] lg:w-[60%] xs:m-0 lg:mr-5">
             <form className="text-black flex text-start items-center flex-col w-full" onSubmit={handleSignIn}>
               <h1 className="flex justify-start xs:w-[95%] lg:w-[60%] text-[30px] font-medium py-5 md:mt-40 lg:mt-0">Sign in</h1>

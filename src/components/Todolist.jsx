@@ -92,7 +92,7 @@ function Todolist() {
     
 
     return (
-        <div className='text-center min-h-[120%] bg-[#191919]'>
+        <div className='text-center xs:min-h-[120vh] md:min-h-[1700px] bg-[#191919]'>
          <div  onClick={handleLogout}  className="absolute top-[10px] right-[20px]  cursor-pointer text-white rounded-2xl bg-[#5E60CE] p-2"><PiSignOutBold fontSize={30} /></div> 
            <Link to="/todo">
                 <div className='flex justify-center items-center gap-2 py-4 h-[200px] bg-[#0D0D0D]'>

@@ -24,7 +24,7 @@ function Signup() {
   return (
     <div className='bg-[#FFFFFF]'>
       <div className='lg:container text-white lg:mx-auto xs:flex justify-center lg:block  '>
-        <div className='flex  xs:justify-center  my-4 items-center lg:justify-between xl:mx-4 '>
+        <div className='flex  xs:justify-center  py-4 items-center lg:justify-between xl:mx-4 '>
         <div className='xs:hidden lg:flex'>
                 <div>
                     <img src={signup} alt="signup" className='w-[700px] h-[98vh] mt-3 m-2' />

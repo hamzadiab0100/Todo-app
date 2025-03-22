@@ -56,7 +56,7 @@ function Welcom() {
   </div>
 </div>
     </div>
-    <div id='bg-s' className=' min-h-[558px] xs:h-[100%] pb-20 my-0 w-full lg:hidden'>
+    <div id='bg-s' className='xs:h-[100%] min-h-[558px] md:pb-52  pb-20 my-0 w-full lg:hidden'>
          <div className='flex flex-col justify-center items-center'>
           <img loading='lazy' src={welcom_s} alt="welcom" className='w-auto h-auto md:w-[400px] py-6 md:mt-36' />
          <img src={logo1x} alt="logo1x" className='pb-4' />
